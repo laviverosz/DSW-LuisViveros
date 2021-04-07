@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <link href="css/estilo.css" rel="stylesheet" type="text/css">
+<link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -42,22 +43,29 @@
     <h2>Recursos Digitales</h2>
     <h5>Videos que te ayudarán al mejor entendimiento de los temas Frameworks CSS y Posicionamiento Web.</h5>
     <div class="fakeimg"><img src="../img/recursos.jpg" alt="Recursos Digitales" width="100%"></div>
-    <video width="320" height="240" controls src="http://vizaimagen.com/unad/sitios_web/recurso1_frameworks.mp4">
-		Video No soportado en este navegador
-	</video>
-    <video width="320" height="240" controls src="http://vizaimagen.com/unad/sitios_web/recurso2_posicionamiento.mp4">
-		Video No soportado en este navegador
-	</video>
-	    
-	  	<iframe width="320" height="240" src="https://www.youtube.com/embed/TmltkTIAX0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<iframe width="320" height="240" src="https://www.youtube.com/embed/n4hgWGK_8cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		  <iframe width="320" height="240" src="https://www.youtube.com/embed/gH32Dj6tVvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<iframe width="320" height="240" src="https://www.youtube.com/embed/R1OAyt33wpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		  <iframe width="320" height="240" src="https://www.youtube.com/embed/5ATR5FKPb_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		  <iframe width="320" height="240" src="https://www.youtube.com/embed/xTE9hB-mOQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<iframe width="320" height="240" src="https://www.youtube.com/embed/LGLtu99SHXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		  <iframe width="320" height="240" src="https://www.youtube.com/embed/I_-H72yY0ZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		  <iframe width="320" height="240" src="https://www.youtube.com/embed/WmokssGcPB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<video id="frameworks" class="video-js" controls preload="auto" width="320" height="240" poster="../img/frameworks2.jpg" data-setup="{}">
+		<source src="http://vizaimagen.com/unad/sitios_web/recurso1_frameworks.mp4" type="video/mp4" />
+		<p class="vjs-no-js">
+		  Para ver este video, habilite JavaScript y considere actualizar a un navegador web que
+		  <a href="https://videojs.com/html5-video-support/" target="_blank"> admite video HTML5</a>
+	   </p>
+   </video>
+   <video id="posicionamiento" class="video-js" controls preload="auto" width="320" height="240" poster="../img/posicionamiento_web3.jpg" data-setup="{}">
+		<source src="http://vizaimagen.com/unad/sitios_web/recurso2_posicionamiento.mp4" type="video/mp4" />
+		<p class="vjs-no-js">
+		  Para ver este video, habilite JavaScript y considere actualizar a un navegador web que
+		  <a href="https://videojs.com/html5-video-support/" target="_blank"> admite video HTML5</a>
+	   </p>
+   </video>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/TmltkTIAX0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/n4hgWGK_8cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/gH32Dj6tVvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/R1OAyt33wpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/5ATR5FKPb_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/xTE9hB-mOQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/LGLtu99SHXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/I_-H72yY0ZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="320" height="240" src="https://www.youtube.com/embed/WmokssGcPB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		
   </div>
 </div>
@@ -65,6 +73,6 @@
 <div class="footer">
   <h6><a href="mailto:laviveros@unadvirtual.edu.co">laviveros@unadvirtual.edu.co</a> - Skype: <b>vizaimage - Ultima actualización: 30 de Marzo de 2021</b></h6>
 </div>
-
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
 </body>
 </html>
