@@ -10222,3 +10222,8 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+@media screen and (orientation:landscape) and (min-width:600px){
+}
+
+@media print{
+}
