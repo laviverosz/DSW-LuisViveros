@@ -105,3 +105,8 @@ body {
     width: 100%;
   }
 }
+@media screen and (orientation:landscape) and (min-width:600px){
+}
+
+@media print and (orientation:landscape){
+}
